@@ -3,8 +3,13 @@
     margin: 0;
 }
 
+body {
+    font-family: Roboto, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+  
+
 .container {
-    height: 100vh;
+    height: 100%;
     display: grid;
     grid-template: 1fr 3fr / 1fr 5fr; /*row, col*/
 }
@@ -24,7 +29,10 @@
 }
 
 .sidebar-container li {
+    display: flex;
+    align-items: center;
     padding: 5px;
+    gap: 15px;
 }
 
 .navigation {
@@ -104,4 +112,16 @@
 
 .project-item {
     background-color: #fff;
+}
+
+.announcements {
+    background-color: #fff;
+    grid-column: 2;
+    grid-row: 2 / 3;
+}
+
+.trending {
+    background-color: #fff;
+    grid-column: 2;
+    grid-row: 4 / 5;
 }
