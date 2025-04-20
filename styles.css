@@ -8,7 +8,10 @@ body {
     font-family: Roboto, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 
 }
-  
+
+svg {
+    fill: #fff;
+}
 
 .container {
     display: grid;
@@ -22,6 +25,11 @@ body {
     align-items: center;
     gap: 15px;
     padding-bottom: 20px;
+}
+
+.dashboard-icon svg {
+    width: 40px;
+    height: 40px;
 }
 
 .sidebar-container {
@@ -42,6 +50,11 @@ body {
     align-items: center;
     padding: 10px;
     gap: 15px;
+}
+
+.sidebar-container li svg {
+    width: 20px;
+    height: 20px;
 }
 
 .user-menu {
