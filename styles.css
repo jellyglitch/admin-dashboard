@@ -107,7 +107,7 @@ body {
     grid-column: 1 / 4;
 }
 
-.welcome-user {
+.welcome-user, .other-users {
     display: flex;
     align-items: center;
 }
@@ -140,7 +140,7 @@ img {
     background-color: #dbdbdb;
     padding: 15px 25px 25px 25px;
     display: grid;
-    grid-template: 1fr 6fr 1fr 6fr / 2fr 1fr;
+    grid-template: 1fr 6fr 1fr 6fr / 3fr 1fr;
     gap: 15px;
 }
 
@@ -199,10 +199,27 @@ img {
     background-color: #fff;
     grid-column: 2;
     grid-row: 2 / 3;
+    border-radius: 5px;
+    padding: 25px;
+}
+
+.announcements p {
+    color: #989898;
+}
+
+hr {
+    margin: 10px;
 }
 
 .trending {
     background-color: #fff;
     grid-column: 2;
     grid-row: 4 / 5;
+    border-radius: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.other-users {
+    justify-content: center;
 }
