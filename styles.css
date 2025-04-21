@@ -168,7 +168,31 @@ img {
 }
 
 .project-item {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
     background-color: #fff;
+    border-left-style: solid;
+    border-width: 10px;
+    border-radius: 5px;
+    border-color: #6529d4;
+    padding: 20px 10px 0 10px;
+}
+
+.project-item p {
+    color: #989898;
+}
+
+.vod-edit svg {
+    width: 25px;
+    height: 25px;
+}
+
+.vod-edit {
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+    padding: 10px;
 }
 
 .announcements {
