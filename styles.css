@@ -65,6 +65,8 @@ body {
     display: grid;
     grid-template-rows: 1fr 2fr;
     padding: 20px 0;
+    background-color: rgb(27, 27, 27);
+    color: #fff;
 }
 
 .top-header {
@@ -79,8 +81,11 @@ body {
     height: 30px;
 }
 
-.search {
+.search, .user {
     display: flex;
+    fill: #ebebeb;
+    align-items: center;
+    gap: 10px;
 }
 
 .searchbar {
@@ -93,7 +98,7 @@ body {
 
 .bottom-header {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(7, 1fr);
     justify-items: center;
     align-items: center;
 }
@@ -111,17 +116,22 @@ body {
     padding: 10px 5px 0px 0px;
 }
 
-.user-icon img {
+img {
     border-radius: 50px;
 }
 
 .bottom-header .user-buttons {
-    grid-column: 4 / 7;
+    grid-column: 4 / 8;
 }
 
 .user-buttons button {
-    padding: 5px 20px;
+    padding: 10px 35px;
     margin: 20px;
+    border: none;
+    font-size: 1rem;
+    background-color: #6529d4;
+    color: #fff;
+    border-radius: 25px;
 }
 
 .main-content-container {
